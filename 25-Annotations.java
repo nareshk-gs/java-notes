@@ -48,15 +48,27 @@ Annotation Types:
 
 
 Classifications of Annotations:
-  1. Standard Annotations
+  1. Standard Annotations (on class, variable, method, constructor, package etc.)
     a. General Purpose Annotations
         @Override
+          ~ for overriding methods
         @SuppressWarnings
+          ~ for suppressing warnings
         @Deprecated
+          ~ for notifying deprecated methods
         @FunctionalInterface
-    b. Meta Annotations
+          ~ for defining an interface with only one abstract method
+    b. Meta Annotations (on annotation interface)
         @Documented
+          ~ JavaDoc documents the annotation on applied class
         @Inherited
+          ~ Allows an annotation to be inherited to child class
         @Target
+          ~ To define appliable programming elements
         @Retention
+          ~ To make available upto run-time (vs Reflection...?)
   2. Custom Annotations
+      a. User Defined Annotation
+            ~ Define/Declare
+            ~ Utilize
+            ~ Access

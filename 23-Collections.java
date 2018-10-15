@@ -92,13 +92,13 @@ Costructors:-
 
 Differances:
 
-	ArrayList				|		Vector
-----------------------------|----------------------------------
+	ArrayList					|		Vector
+---------------------|----------------------------------
 1.	Non-Synchronized		|	Synchronized
-2.	Not Thread safe			|	Thread safe
-3.	Relatively high			|	Relatively low performance
+2.	Not Thread safe		|	Thread safe
+3.	Relatively high		|	Relatively low performance
 	performance				|
-4.	Introduced in v1.2		|	Introduced in v1.0 (legacy)
+4.	Introduced in v1.2	|	Introduced in v1.0 (legacy)
 
 Using Collections.synchronizedlist() method, Non-Synchronized objects can be converted to synchronized list objects
 Eg:
